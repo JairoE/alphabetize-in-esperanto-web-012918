@@ -1,3 +1,5 @@
+require 'pry'
+
 def alphabetize(arr)
   eSPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split('')
 
