@@ -7,13 +7,13 @@ def alphabetize(arr)
     x = "string"
     inc = 0
     until x != "string"
-       if eSPERANTO_ALPHABET.index(string1[inc]) < eSPERANTO_ALPHABET.index(string2[inc])
-         binding.pry
-         x = -1
-       elsif  eSPERANTO_ALPHABET.index(string1[inc]) > eSPERANTO_ALPHABET.index(string2[inc])
-         x = 1
-       elsif inc >= string1.size
-         x = 0
+        if string1[inc] || string2[inc] != " "
+         if eSPERANTO_ALPHABET.index(string1[inc]) < eSPERANTO_ALPHABET.index(string2[inc])
+           binding.pry
+           x = -1
+         elsif  eSPERANTO_ALPHABET.index(string1[inc]) > eSPERANTO_ALPHABET.index(string2[inc])
+           x = 1
+         end
        end
        inc +=1
      end
