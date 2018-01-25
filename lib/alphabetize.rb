@@ -9,7 +9,7 @@ def alphabetize(arr)
          x = -1
        elsif  eSPERANTO_ALPHABET.index(string1[inc]) > eSPERANTO_ALPHABET.index(string2[inc])
          x = 1
-       elsif inc > string1.size
+       elsif inc >= string1.size
          x = 0
        end
        inc +=1
