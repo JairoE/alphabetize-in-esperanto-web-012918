@@ -7,7 +7,7 @@ def alphabetize(arr)
     x = "string"
     inc = 0
     until x != "string"
-        if string1[inc] != " "" || string2[inc] != " "
+        if string1[inc] != "  || string2[inc] != " "
          if eSPERANTO_ALPHABET.index(string1[inc]) < eSPERANTO_ALPHABET.index(string2[inc])
             binding.pry
            x = -1
